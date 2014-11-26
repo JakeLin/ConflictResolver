@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEFACF031A25EE3400044746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFACF021A25EE3400044746 /* AppDelegate.swift */; };
+		CEFACF051A25EE3400044746 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFACF041A25EE3400044746 /* ViewController.swift */; };
+		CEFACF081A25EE3400044746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFACF061A25EE3400044746 /* Main.storyboard */; };
+		CEFACF0A1A25EE3400044746 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFACF091A25EE3400044746 /* Images.xcassets */; };
+		CEFACF0D1A25EE3400044746 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFACF0B1A25EE3400044746 /* LaunchScreen.xib */; };
+		CEFACF191A25EE3400044746 /* ConflictResolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFACF181A25EE3400044746 /* ConflictResolverTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEFACF131A25EE3400044746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFACEF51A25EE3400044746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFACEFC1A25EE3400044746;
+			remoteInfo = ConflictResolver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEFACEFD1A25EE3400044746 /* ConflictResolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConflictResolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFACF011A25EE3400044746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFACF021A25EE3400044746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEFACF041A25EE3400044746 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEFACF071A25EE3400044746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEFACF091A25EE3400044746 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEFACF0C1A25EE3400044746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CEFACF121A25EE3400044746 /* ConflictResolverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConflictResolverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFACF171A25EE3400044746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFACF181A25EE3400044746 /* ConflictResolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConflictResolverTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFACEFA1A25EE3400044746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFACF0F1A25EE3400044746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFACEF41A25EE3400044746 = {
+			isa = PBXGroup;
+			children = (
+				CEFACEFF1A25EE3400044746 /* ConflictResolver */,
+				CEFACF151A25EE3400044746 /* ConflictResolverTests */,
+				CEFACEFE1A25EE3400044746 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFACEFE1A25EE3400044746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFACEFD1A25EE3400044746 /* ConflictResolver.app */,
+				CEFACF121A25EE3400044746 /* ConflictResolverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFACEFF1A25EE3400044746 /* ConflictResolver */ = {
+			isa = PBXGroup;
+			children = (
+				CEFACF021A25EE3400044746 /* AppDelegate.swift */,
+				CEFACF041A25EE3400044746 /* ViewController.swift */,
+				CEFACF061A25EE3400044746 /* Main.storyboard */,
+				CEFACF091A25EE3400044746 /* Images.xcassets */,
+				CEFACF0B1A25EE3400044746 /* LaunchScreen.xib */,
+				CEFACF001A25EE3400044746 /* Supporting Files */,
+			);
+			path = ConflictResolver;
+			sourceTree = "<group>";
+		};
+		CEFACF001A25EE3400044746 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFACF011A25EE3400044746 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEFACF151A25EE3400044746 /* ConflictResolverTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFACF181A25EE3400044746 /* ConflictResolverTests.swift */,
+				CEFACF161A25EE3400044746 /* Supporting Files */,
+			);
+			path = ConflictResolverTests;
+			sourceTree = "<group>";
+		};
+		CEFACF161A25EE3400044746 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFACF171A25EE3400044746 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFACEFC1A25EE3400044746 /* ConflictResolver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFACF1C1A25EE3400044746 /* Build configuration list for PBXNativeTarget "ConflictResolver" */;
+			buildPhases = (
+				CEFACEF91A25EE3400044746 /* Sources */,
+				CEFACEFA1A25EE3400044746 /* Frameworks */,
+				CEFACEFB1A25EE3400044746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConflictResolver;
+			productName = ConflictResolver;
+			productReference = CEFACEFD1A25EE3400044746 /* ConflictResolver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEFACF111A25EE3400044746 /* ConflictResolverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFACF1F1A25EE3400044746 /* Build configuration list for PBXNativeTarget "ConflictResolverTests" */;
+			buildPhases = (
+				CEFACF0E1A25EE3400044746 /* Sources */,
+				CEFACF0F1A25EE3400044746 /* Frameworks */,
+				CEFACF101A25EE3400044746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFACF141A25EE3400044746 /* PBXTargetDependency */,
+			);
+			name = ConflictResolverTests;
+			productName = ConflictResolverTests;
+			productReference = CEFACF121A25EE3400044746 /* ConflictResolverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFACEF51A25EE3400044746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Jake Lin";
+				TargetAttributes = {
+					CEFACEFC1A25EE3400044746 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CEFACF111A25EE3400044746 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CEFACEFC1A25EE3400044746;
+					};
+				};
+			};
+			buildConfigurationList = CEFACEF81A25EE3400044746 /* Build configuration list for PBXProject "ConflictResolver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFACEF41A25EE3400044746;
+			productRefGroup = CEFACEFE1A25EE3400044746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFACEFC1A25EE3400044746 /* ConflictResolver */,
+				CEFACF111A25EE3400044746 /* ConflictResolverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFACEFB1A25EE3400044746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFACF081A25EE3400044746 /* Main.storyboard in Resources */,
+				CEFACF0D1A25EE3400044746 /* LaunchScreen.xib in Resources */,
+				CEFACF0A1A25EE3400044746 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFACF101A25EE3400044746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFACEF91A25EE3400044746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFACF051A25EE3400044746 /* ViewController.swift in Sources */,
+				CEFACF031A25EE3400044746 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFACF0E1A25EE3400044746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFACF191A25EE3400044746 /* ConflictResolverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEFACF141A25EE3400044746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFACEFC1A25EE3400044746 /* ConflictResolver */;
+			targetProxy = CEFACF131A25EE3400044746 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEFACF061A25EE3400044746 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFACF071A25EE3400044746 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEFACF0B1A25EE3400044746 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFACF0C1A25EE3400044746 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFACF1A1A25EE3400044746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEFACF1B1A25EE3400044746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFACF1D1A25EE3400044746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConflictResolver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEFACF1E1A25EE3400044746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConflictResolver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEFACF201A25EE3400044746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ConflictResolverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConflictResolver.app/ConflictResolver";
+			};
+			name = Debug;
+		};
+		CEFACF211A25EE3400044746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ConflictResolverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConflictResolver.app/ConflictResolver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFACEF81A25EE3400044746 /* Build configuration list for PBXProject "ConflictResolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFACF1A1A25EE3400044746 /* Debug */,
+				CEFACF1B1A25EE3400044746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFACF1C1A25EE3400044746 /* Build configuration list for PBXNativeTarget "ConflictResolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFACF1D1A25EE3400044746 /* Debug */,
+				CEFACF1E1A25EE3400044746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEFACF1F1A25EE3400044746 /* Build configuration list for PBXNativeTarget "ConflictResolverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFACF201A25EE3400044746 /* Debug */,
+				CEFACF211A25EE3400044746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFACEF51A25EE3400044746 /* Project object */;
+}
