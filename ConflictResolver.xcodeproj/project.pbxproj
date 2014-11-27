@@ -13,6 +13,13 @@
 		CEFACF0A1A25EE3400044746 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFACF091A25EE3400044746 /* Images.xcassets */; };
 		CEFACF0D1A25EE3400044746 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFACF0B1A25EE3400044746 /* LaunchScreen.xib */; };
 		CEFACF191A25EE3400044746 /* ConflictResolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFACF181A25EE3400044746 /* ConflictResolverTests.swift */; };
+		CEFACF291A25EF3400044746 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFACF281A25EF3400044746 /* WatchKit.framework */; };
+		CEFACF2E1A25EF3400044746 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFACF2D1A25EF3400044746 /* InterfaceController.swift */; };
+		CEFACF301A25EF3400044746 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFACF2F1A25EF3400044746 /* Images.xcassets */; };
+		CEFACF341A25EF3400044746 /* ConflictResolver Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = CEFACF331A25EF3400044746 /* ConflictResolver Watch App.app */; };
+		CEFACF3B1A25EF3400044746 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFACF3A1A25EF3400044746 /* Interface.storyboard */; };
+		CEFACF3D1A25EF3400044746 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFACF3C1A25EF3400044746 /* Images.xcassets */; };
+		CEFACF401A25EF3400044746 /* ConflictResolver WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CEFACF261A25EF3400044746 /* ConflictResolver WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +30,35 @@
 			remoteGlobalIDString = CEFACEFC1A25EE3400044746;
 			remoteInfo = ConflictResolver;
 		};
+		CEFACF351A25EF3400044746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFACEF51A25EE3400044746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFACF321A25EF3400044746;
+			remoteInfo = "ConflictResolver Watch App";
+		};
+		CEFACF3E1A25EF3400044746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFACEF51A25EE3400044746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFACF251A25EF3400044746;
+			remoteInfo = "ConflictResolver WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEFACF471A25EF3400044746 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CEFACF401A25EF3400044746 /* ConflictResolver WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CEFACEFD1A25EE3400044746 /* ConflictResolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConflictResolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +71,15 @@
 		CEFACF121A25EE3400044746 /* ConflictResolverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConflictResolverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFACF171A25EE3400044746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEFACF181A25EE3400044746 /* ConflictResolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConflictResolverTests.swift; sourceTree = "<group>"; };
+		CEFACF261A25EF3400044746 /* ConflictResolver WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ConflictResolver WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFACF281A25EF3400044746 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		CEFACF2C1A25EF3400044746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFACF2D1A25EF3400044746 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CEFACF2F1A25EF3400044746 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEFACF331A25EF3400044746 /* ConflictResolver Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConflictResolver Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFACF391A25EF3400044746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFACF3A1A25EF3400044746 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		CEFACF3C1A25EF3400044746 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +97,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEFACF231A25EF3400044746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFACF291A25EF3400044746 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +113,9 @@
 			children = (
 				CEFACEFF1A25EE3400044746 /* ConflictResolver */,
 				CEFACF151A25EE3400044746 /* ConflictResolverTests */,
+				CEFACF2A1A25EF3400044746 /* ConflictResolver WatchKit Extension */,
+				CEFACF371A25EF3400044746 /* ConflictResolver Watch App */,
+				CEFACF271A25EF3400044746 /* Frameworks */,
 				CEFACEFE1A25EE3400044746 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +125,8 @@
 			children = (
 				CEFACEFD1A25EE3400044746 /* ConflictResolver.app */,
 				CEFACF121A25EE3400044746 /* ConflictResolverTests.xctest */,
+				CEFACF261A25EF3400044746 /* ConflictResolver WatchKit Extension.appex */,
+				CEFACF331A25EF3400044746 /* ConflictResolver Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +169,50 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CEFACF271A25EF3400044746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEFACF281A25EF3400044746 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEFACF2A1A25EF3400044746 /* ConflictResolver WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CEFACF2D1A25EF3400044746 /* InterfaceController.swift */,
+				CEFACF2F1A25EF3400044746 /* Images.xcassets */,
+				CEFACF2B1A25EF3400044746 /* Supporting Files */,
+			);
+			path = "ConflictResolver WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		CEFACF2B1A25EF3400044746 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFACF2C1A25EF3400044746 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEFACF371A25EF3400044746 /* ConflictResolver Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				CEFACF3A1A25EF3400044746 /* Interface.storyboard */,
+				CEFACF3C1A25EF3400044746 /* Images.xcassets */,
+				CEFACF381A25EF3400044746 /* Supporting Files */,
+			);
+			path = "ConflictResolver Watch App";
+			sourceTree = "<group>";
+		};
+		CEFACF381A25EF3400044746 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFACF391A25EF3400044746 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +223,12 @@
 				CEFACEF91A25EE3400044746 /* Sources */,
 				CEFACEFA1A25EE3400044746 /* Frameworks */,
 				CEFACEFB1A25EE3400044746 /* Resources */,
+				CEFACF471A25EF3400044746 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CEFACF3F1A25EF3400044746 /* PBXTargetDependency */,
 			);
 			name = ConflictResolver;
 			productName = ConflictResolver;
@@ -150,6 +253,39 @@
 			productReference = CEFACF121A25EE3400044746 /* ConflictResolverTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		CEFACF251A25EF3400044746 /* ConflictResolver WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFACF441A25EF3400044746 /* Build configuration list for PBXNativeTarget "ConflictResolver WatchKit Extension" */;
+			buildPhases = (
+				CEFACF221A25EF3400044746 /* Sources */,
+				CEFACF231A25EF3400044746 /* Frameworks */,
+				CEFACF241A25EF3400044746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFACF361A25EF3400044746 /* PBXTargetDependency */,
+			);
+			name = "ConflictResolver WatchKit Extension";
+			productName = "ConflictResolver WatchKit Extension";
+			productReference = CEFACF261A25EF3400044746 /* ConflictResolver WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		CEFACF321A25EF3400044746 /* ConflictResolver Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFACF411A25EF3400044746 /* Build configuration list for PBXNativeTarget "ConflictResolver Watch App" */;
+			buildPhases = (
+				CEFACF311A25EF3400044746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ConflictResolver Watch App";
+			productName = "ConflictResolver Watch App";
+			productReference = CEFACF331A25EF3400044746 /* ConflictResolver Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +301,12 @@
 					CEFACF111A25EE3400044746 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = CEFACEFC1A25EE3400044746;
+					};
+					CEFACF251A25EF3400044746 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CEFACF321A25EF3400044746 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -183,6 +325,8 @@
 			targets = (
 				CEFACEFC1A25EE3400044746 /* ConflictResolver */,
 				CEFACF111A25EE3400044746 /* ConflictResolverTests */,
+				CEFACF251A25EF3400044746 /* ConflictResolver WatchKit Extension */,
+				CEFACF321A25EF3400044746 /* ConflictResolver Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +346,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFACF241A25EF3400044746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFACF301A25EF3400044746 /* Images.xcassets in Resources */,
+				CEFACF341A25EF3400044746 /* ConflictResolver Watch App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFACF311A25EF3400044746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFACF3B1A25EF3400044746 /* Interface.storyboard in Resources */,
+				CEFACF3D1A25EF3400044746 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +387,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEFACF221A25EF3400044746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFACF2E1A25EF3400044746 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +402,16 @@
 			isa = PBXTargetDependency;
 			target = CEFACEFC1A25EE3400044746 /* ConflictResolver */;
 			targetProxy = CEFACF131A25EE3400044746 /* PBXContainerItemProxy */;
+		};
+		CEFACF361A25EF3400044746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFACF321A25EF3400044746 /* ConflictResolver Watch App */;
+			targetProxy = CEFACF351A25EF3400044746 /* PBXContainerItemProxy */;
+		};
+		CEFACF3F1A25EF3400044746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFACF251A25EF3400044746 /* ConflictResolver WatchKit Extension */;
+			targetProxy = CEFACF3E1A25EF3400044746 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -336,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ConflictResolver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ConflictResolver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,6 +568,62 @@
 			};
 			name = Release;
 		};
+		CEFACF421A25EF3400044746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = ConflictResolver_WatchKit_Extension;
+				INFOPLIST_FILE = "ConflictResolver Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		CEFACF431A25EF3400044746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = ConflictResolver_WatchKit_Extension;
+				INFOPLIST_FILE = "ConflictResolver Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		CEFACF451A25EF3400044746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ConflictResolver WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CEFACF461A25EF3400044746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ConflictResolver WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +649,22 @@
 			buildConfigurations = (
 				CEFACF201A25EE3400044746 /* Debug */,
 				CEFACF211A25EE3400044746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEFACF411A25EF3400044746 /* Build configuration list for PBXNativeTarget "ConflictResolver Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFACF421A25EF3400044746 /* Debug */,
+				CEFACF431A25EF3400044746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEFACF441A25EF3400044746 /* Build configuration list for PBXNativeTarget "ConflictResolver WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFACF451A25EF3400044746 /* Debug */,
+				CEFACF461A25EF3400044746 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
